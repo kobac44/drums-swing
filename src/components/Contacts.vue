@@ -3,15 +3,20 @@
       <label>First name:</label>
       <input type="first_name" required>
       <label>Last name:</label>
-      <input type="last_name" required>
+      <input type="last_name" required v-model="lastname">
       <label>Email:</label>
-      <input type="email" required>
+      <input type="email" required v-model="email">
   </form>
 </template>
 
 <script>
 export default {
-
+    data() {
+        return {
+            email: '',
+            lastname: ''
+        }
+    }
 }
 </script>
 

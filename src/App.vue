@@ -1,23 +1,19 @@
-/* eslint-disable vue/script-setup-uses-vars */
-// eslint-disable-next-line vue/script-setup-uses-vars
 <template>
   <header>
     <Navbar />
-    <DRUMBOOK />
     <Contacts />
   </header>
 </template>
 
 <script>
 import Navbar from './components/Navbar';
-import DRUMBOOK from './components/DRUMBOOK.vue';
+
 import Contacts from './components/Contacts.vue';
 
 export default {
   name: 'App',
   components: {
      Navbar,
-     DRUMBOOK,
      Contacts
   }
 }

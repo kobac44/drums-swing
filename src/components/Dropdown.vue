@@ -23,11 +23,11 @@
 export default {
   name: "dropdown",
   props: ["title", "items"],
-  data () {
+  data() {
     return {
-      isOpen: false
-    }
-  }
+      isOpen: false,
+    };
+  },
 };
 </script>
 
@@ -49,7 +49,7 @@ nav .menu-item .sub-menu {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .fade-enter,

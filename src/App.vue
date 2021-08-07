@@ -1,26 +1,29 @@
 <template>
   <header>
     <Navbar />
+    <DrumBook />
     <Contacts />
   </header>
 </template>
 
 <script>
-import Navbar from './components/Navbar';
-
-import Contacts from './components/Contacts.vue';
+import Navbar from "./components/Navbar";
+import DrumBook from "./components/DrumBook";
+import Contacts from "./components/Contacts.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-     Navbar,
-     Contacts
-  }
-}
+    Navbar,
+    // eslint-disable-next-line vue/no-unused-components
+    DrumBook,
+    Contacts,
+  },
+};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 * {
   margin: 0;
@@ -29,7 +32,7 @@ export default {
 }
 
 body {
- background-color: rgb(92, 105, 105);
+  background-color: rgb(92, 105, 105);
 }
 
 header {

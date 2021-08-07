@@ -1,8 +1,8 @@
 <template>
-<fa icon="drum" />
+<div></div>
 </template>
 
-<script>
+<script >
 export default {
 
 }

@@ -49,8 +49,4 @@ export default {
   width: 50vw;
   height: 30vh;
 }
-
-.letter {
-  margin: 
-}
 </style>

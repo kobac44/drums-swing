@@ -1,14 +1,14 @@
 <template>
   <header>
     <Navbar />
-    <DrumBook />
+    <!-- <DrumBook /> -->
     <Contacts />
   </header>
 </template>
 
 <script>
 import Navbar from "./components/Navbar";
-import DrumBook from "./components/DrumBook";
+// import DrumBook from "./components/DrumBook";
 import Contacts from "./components/Contacts.vue";
 
 export default {
@@ -16,7 +16,7 @@ export default {
   components: {
     Navbar,
     // eslint-disable-next-line vue/no-unused-components
-    DrumBook,
+    // DrumBook,
     Contacts,
   },
 };

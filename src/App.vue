@@ -3,17 +3,20 @@
     <Navbar />
     <!-- <DrumBook /> -->
     <Contacts />
+    <Footer />
   </header>
 </template>
 
 <script>
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // import DrumBook from "./components/DrumBook";
 import Contacts from "./components/Contacts.vue";
 
 export default {
   name: "App",
   components: {
+    Footer,
     Navbar,
     // eslint-disable-next-line vue/no-unused-components
     // DrumBook,

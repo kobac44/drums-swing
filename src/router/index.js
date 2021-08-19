@@ -1,17 +1,11 @@
-/* eslint-disable no-undef */
 import { createRouter, createWebHistory } from "vue-router";
-import Navbar from "../components/Navbar";
-import DrumBook from "../components/DrumBook";
+import DrumBook from "../views/DrumBook";
 import About from "../views/About";
+import Contacts from "../views/Contacts";
 
 const routes = [
   {
-    path: "/Navbar",
-    name: "Navbar",
-    component: Navbar,
-  },
-  {
-    path: "/drumbook",
+    path: "/",
     name: "DRUM BOOK",
     component: DrumBook,
   },
@@ -19,6 +13,11 @@ const routes = [
     path: "/about",
     name: "About",
     component: About,
+  },
+  {
+    path: "/contacts",
+    name: "Contacts",
+    component: Contacts,
   },
 ];
 

@@ -28,7 +28,7 @@ form {
   text-align: left;
   padding: 40px;
   border-radius: 10px;
-}
+} 
 
 label {
   color: #333;

@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import DrumBook from "../views/DrumBook";
 import About from "../views/About";
-import Contacts from "../views/Contacts";
+import Contact from "../views/Contact";
+import BUY from "../views/BUY";
 
 const routes = [
   {
@@ -15,10 +16,15 @@ const routes = [
     component: About,
   },
   {
-    path: "/contacts",
-    name: "Contacts",
-    component: Contacts,
+    path: "/contact",
+    name: "Contact",
+    component: Contact,
   },
+  {
+    Path: "/buy",
+    name: "BUY",
+    component: BUY,
+  }
 ];
 
 const router = createRouter({

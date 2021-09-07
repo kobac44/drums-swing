@@ -21,7 +21,8 @@
 
 <script>
 export default {
-  name: "Dropdown",
+  name: "dropdown",
+  // props: ["title", "items"],
 }
 </script>
 

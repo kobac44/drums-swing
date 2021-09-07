@@ -3,14 +3,16 @@
     <Dropdown title="DRUM BOOK" :items="drumbook" />
     <Dropdown title="ABOUT" :items="about" />
     <Dropdown title="BUY" :items="buy" />
+    <div class="menu-item"><a href="#">Contact</a></div>
   </nav>
+    
 </template>
 
 <script>
 import Dropdown from "../views/Dropdown";
 
 export default {
-  name: "Navbar",
+  name: "navbar",
   components: {
     Dropdown,
   },
@@ -54,7 +56,7 @@ export default {
   },
   props: ["title", "items"],
   methods: {
-    isOpen: false,
+    isOpen: true,
   },
 };
 </script>
@@ -64,5 +66,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5px;
+}
+
+div .menu-item {
+  text-decoration: none;
+  font-weight: bolder;
+  
 }
 </style>

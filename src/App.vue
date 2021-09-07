@@ -1,13 +1,17 @@
 <template>
   <header>
-    <router-link to="/">Drum Book</router-link>
     <Navbar />
-    <Footer />
+    <router-link to="/"></router-link>
+    <router-link to="/"></router-link>
+    <router-link to="/"></router-link>
+    <router-link to="/Contact"></router-link>
+  <Footer />
   </header>
 </template>
 
 <script>
-// import Dropdown from "./views/Dropdown";
+// eslint-disable-next-line no-unused-vars
+import Dropdown from "./views/Dropdown";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 

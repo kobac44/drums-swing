@@ -5,7 +5,6 @@
     <Dropdown title="BUY" :items="buy" />
     <div class="menu-item"><a href="#">Contact</a></div>
   </nav>
-    
 </template>
 
 <script>
@@ -69,9 +68,9 @@ nav {
   padding: 5px;
 }
 
-div .menu-item {
+/* div .menu-item a {
   text-decoration: none;
-  font-weight: bolder;
-  
-}
+  color: #000;
+  width: 10px;
+} */
 </style>

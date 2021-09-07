@@ -37,7 +37,7 @@
 //     msg: String,
 //   },
 // };
-// </script>
+</script>
 
 <style scoped>
 /* .name {

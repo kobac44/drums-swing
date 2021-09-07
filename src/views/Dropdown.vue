@@ -11,7 +11,7 @@
     </svg>
     <transition name="fade" appear>
       <div class="sub-menu" v-if="isOpen">
-        <div v-for="(item, i) in items" :key="i" class="menu-item">
+        <div v-for="(items, i) in items" :key="i" class="menu-item">
           <a :href="item.link">{{ item.title }}</a>
         </div>
       </div>
@@ -22,7 +22,7 @@
 <script>
 export default {
   name: "dropdown",
-  // props: ["title", "items"],
+  props: ["title", "items"],
 }
 </script>
 

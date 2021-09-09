@@ -1,5 +1,5 @@
 <template>
-  <!-- <div class="name">
+  <div class="name">
     <div class="letter">
       <img src="../assets/img/A.png" />
     </div>
@@ -27,20 +27,22 @@
     <div class="letter">
       <img src="../assets/img/K.png" />
     </div>
-  </div> -->
+  </div>
 </template>
 
 <script>
-// export default {
-//   name: "DrumBook",
-//   props: {
-//     msg: String,
-//   },
-// };
+export default {
+  name: 'DrumBook',
+  data: () {
+    return {
+      props: [String]
+    },
+  }, 
+};
 </script>
 
 <style scoped>
-/* .name {
+.name {
   border: 1px solid grey;
   display: flex;
   align-items: center;
@@ -48,5 +50,5 @@
   vertical-align: middle;
   width: 50vw;
   height: 30vh;
-} */
+}
 </style>

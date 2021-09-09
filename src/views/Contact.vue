@@ -28,7 +28,7 @@ form {
   text-align: left;
   padding: 40px;
   border-radius: 10px;
-} 
+}
 
 label {
   color: #333;
@@ -47,5 +47,11 @@ input {
   background-color: #848484;
   border-bottom: 1px solid #ddd;
   color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
 }
 </style>

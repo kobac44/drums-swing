@@ -67,10 +67,4 @@ nav {
   justify-content: center;
   padding: 5px;
 }
-
-/* div .menu-item a {
-  text-decoration: none;
-  color: #000;
-  width: 10px;
-} */
 </style>

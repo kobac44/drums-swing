@@ -1,7 +1,7 @@
 <template>
   <header>
     <Navbar />
-    <router-link to="/"></router-link>
+    <router-link to="/Drum Book"></router-link>
     <router-link to="/"></router-link>
     <router-link to="/"></router-link>
     <router-link to="/Contact"></router-link>

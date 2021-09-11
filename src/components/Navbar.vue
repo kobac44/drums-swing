@@ -53,10 +53,6 @@ export default {
       ],
     };
   },
-  props: ["title", "items"],
-  methods: {
-    isOpen: true,
-  },
 };
 </script>
 

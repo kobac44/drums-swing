@@ -23,7 +23,10 @@
 export default {
   name: "dropdown",
   props: ["title", "items"],
-}
+  methods: {
+    isOpen: true,
+  },
+};
 </script>
 
 <style scoped>

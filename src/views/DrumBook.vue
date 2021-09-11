@@ -32,12 +32,12 @@
 
 <script>
 export default {
-  name: 'DrumBook',
-  data: () {
+  name: "DrumBook",
+  data() {
     return {
-      props: [String]
-    },
-  }, 
+      props: [String],
+    };
+  },
 };
 </script>
 
